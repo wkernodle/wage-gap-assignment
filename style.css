@@ -1,0 +1,9 @@
+<style>
+    img {
+        width: 50%; /* Makes the photo 50% of the container's width */
+        max-width: 300px; /* Ensures the image doesn't get too large */
+        height: auto; /* Keeps the aspect ratio */
+        display: block; /* Ensures proper alignment */
+        margin: 20px auto; /* Centers the image on the page */
+    }
+</style>
