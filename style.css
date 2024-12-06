@@ -7,3 +7,69 @@
         margin: 20px auto; /* Centers the image on the page */
     }
 </style>
+
+/* General font size increase */
+body {
+    font-size: 18px; /* Adjust the size as needed */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Increase font size for specific elements */
+p {
+    font-size: 20px; /* Example for paragraph text */
+}
+
+figcaption {
+    font-size: 16px; /* Slightly smaller font size for captions */
+}
+
+h1, h2, h3 {
+    font-size: 24px; /* Adjust heading sizes */
+}
+
+/* Optional: Styling for datawrapper visualizations */
+#datawrapper-vis-aTfBI, #datawrapper-vis-My04s, #datawrapper-vis-wklqu {
+    font-size: 18px; /* Adjust the size for text inside visualizations */
+}
+
+/* Story Text Style */
+    .story {
+        font-size: 300px; /* Larger text size */
+        font-weight: bold; /* Bold font */
+        line-height: 1.8; /* Increased line spacing for readability */
+    }
+
+    /* Graph/Data Visualization Style */
+    .graph {
+        width: 20%; /* Shrinks graph size to a quarter of the container width */
+        max-width: 300px; /* Limits the maximum size of the graphs */
+        height: auto; /* Maintains aspect ratio */
+        margin: 20px auto; /* Centers the graphs and adds spacing around them */
+        display: block; /* Makes the graphs block elements for better layout control */
+    }
+     .photo {
+        width: 400px; /* Set the image width */
+        height: auto; /* Maintain the original proportions */
+        display: block; /* Ensure the image is treated as a block element */
+        margin: 20px auto; /* Center the image and add spacing */
+    }
+
+      figure {
+        text-align: center; /* Centers the image and caption */
+        margin: 20px auto; /* Adds spacing around the figure */
+    }
+
+    figcaption {
+        font-size: 20px; /* Adjusts the font size */
+        color: #555; /* Changes the text color to gray */
+        font-style: italic; /* Makes the caption text italic */
+    }
+
+    /* Adjust graph size */
+#datawrapper-vis-aTfBI,
+#datawrapper-vis-My04s,
+#datawrapper-vis-wklqu {
+    width: 80%; /* Adjust the width as needed, e.g., 80%, 50%, or specific pixel values */
+    max-width: 600px; /* Limit the maximum width */
+    margin: 0 auto; /* Center the graphs horizontally */
+    
